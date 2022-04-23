@@ -1,5 +1,5 @@
 def number_of_bottles():
-    for value in range(5, -1, -1):
+    for value in range(99, -1, -1):
         if value == 1: 
             print(str(value) + " bottle of milk on the wall, " + str(value) + " bottle of milk. Take one down and pass it around, no more bottles of milk on the wall")
         elif value == 0: 
