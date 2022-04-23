@@ -20,7 +20,7 @@ def get_allStudentColors():
     #your loop here
     for value in range (1,11):
         num = random.randint(0, 3)
-        students_array.append(get_color())
-    print(num)
+        students_array.append(get_color(num))
+    return students_array
 
 print(get_allStudentColors())
